@@ -5,3 +5,7 @@ Gatey error logging service website. Provides interface for Gatey. Works with [G
 - Monitor errors occured inside your applications.
 - Collect crash reports and additional information.
 - And much more...
+
+# Technologies:
+- NextJS (ReactJS)
+- Docker
