@@ -12,14 +12,14 @@ export default function Layout({ children }) {
 
       <meta name="author" content={process.env.NEXT_PUBLIC_META_AUTHOR} />
       
-      <meta name="description" content="Software solutions for everyone." />
-      <meta name="keywords" content="florgon, space, portal, developers, dev, services, kirillzhosul" />
+      <meta name="description" content="Error logging service for developers." />
+      <meta name="keywords" content="florgon, space, portal, errors, developers, dev, kirillzhosul" />
       
       <link rel="canonical" href={process.env.NEXT_PUBLIC_CANONICAL_DOMAIN} />
       <link rel="alternate" hrefLang="x-default" href={process.env.NEXT_PUBLIC_CANONICAL_DOMAIN} />
 
-      <meta name="title" content="Florgon for developers" />
-      <title>Florgon for developers</title>
+      <meta name="title" content="Gatey" />
+      <title>Gatey</title>
     </Head>
     <Navbar />
     <Container className="mt-5 text-center">{children}</Container>
